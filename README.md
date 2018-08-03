@@ -12,8 +12,9 @@
 
 5. **Install VS Code Plugin**
     - ESLint
-    - Prettier-Code formatter
+    - Prettier - Code formatter
     - EditorConfig for VS Code
+    - GitLens — Git supercharged
 
 ## Start
 
