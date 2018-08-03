@@ -10,6 +10,7 @@
     "lint": "esw webpack.config.* src tools --color",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
+    "remove-module": "rimraf ./node_modules",
     "build": "npm run clean-dist && babel-node tools/build.js",
     "prod": "babel-node tools/distServer.js"
   },
@@ -17,10 +18,10 @@
   "license": "MIT",
   "dependencies": {
     "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "react-dom": "16.2.1",
     "react-redux": "5.0.5",
     "react-router-dom": "4.2.2",
-    "react-router-redux": "5.0.0-alpha.6",
+    "react-router-redux": "5.0.0-alpha.9",
     "redux": "3.6.0",
     "redux-thunk": "2.1.0",
     "prop-types": "15.5.10"
@@ -30,7 +31,7 @@
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
-    "babel-loader": "7.1.1",
+    "babel-loader": "7.1.5",
     "babel-plugin-transform-react-constant-elements": "6.23.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.6",
     "babel-polyfill": "6.23.0",
