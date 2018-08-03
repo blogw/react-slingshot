@@ -14,7 +14,7 @@
     - ESLint
     - Prettier - Code formatter
     - EditorConfig for VS Code
-    - GitLens — Git supercharged
+    - GitLens — Git supercharged (CTRL+SHIFT+P GitLens:Open Settings)
 
 ## Start
 
