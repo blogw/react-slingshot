@@ -8,10 +8,10 @@
   "scripts": {
     "start": "babel-node tools/srcServer.js",
     "lint": "esw webpack.config.* src tools --color",
-    "clean-dist": "npm run remove-dist && mkdir dist",
+    "clean-dist": "yarn remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
     "remove-module": "rimraf ./node_modules",
-    "build": "npm run clean-dist && babel-node tools/build.js",
+    "build": "yarn clean-dist && babel-node tools/build.js",
     "prod": "babel-node tools/distServer.js"
   },
   "author": "blogw",

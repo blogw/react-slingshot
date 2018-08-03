@@ -6,14 +6,16 @@
 
 2. **Install [Git](https://git-scm.com/downloads)**
 
-3. **Install [VS Code](https://code.visualstudio.com/)**
+3. **Install [Yarn](https://yarnpkg.com)**
 
-4. **Install VS Code Plugin**
+4. **Install [VS Code](https://code.visualstudio.com/)**
+
+5. **Install VS Code Plugin**
     - ESLint
     - Prettier-Code formatter
     - EditorConfig for VS Code
 
 ## Start
 
-1. npm install
-2. npm run start
+1. yarn install
+2. yarn start
